@@ -1,0 +1,115 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
+
+MakeWindow({
+  Hub = {
+    Title = "X Luminous Chronicles X",
+    Animation = "Made at LC community"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "Key System",
+    Description = "",
+    KeyLink = "",
+    Keys = {"LC_Key"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
+
+MinimizeButton({
+  Image = "",
+  Size = {40, 40},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+local Main = MakeTab({Name = "Main menu"})
+
+local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+  })
+
+
+local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "FE AFEM Emotes",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AFEM-14048"))()
+    end
+  })
+
+  local section = AddSection(Main, {""})
+  AddButton(Main, {
+      Name = "FE Emotes",
+      Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+      end
+    })
+
+    local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "Fast Side By Side",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_11l7Y131YqJjZ31QmV5L8pI23V02b3191sEg26E75472Wl78Vi8870jRv5txZyL1.lua.txt"))()
+    end
+  })
+
+  local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "Emotes Speed",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/main/Roblox%20animation%20speed%20script'))()
+    end
+  })
+
+  local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "Keyboard",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
+    end
+  })
+
+  local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "Infinite Yield ",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+  })
+
+  local Main = MakeTab({Name = "Other"})
+
+  local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "Shiftlock",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/XAXAEXOXTEST/shiftlockxlance/refs/heads/main/Shiftlockxremasteredbylance'))()
+    end
+  })
+
+  local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "Tptool",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/XAXAEXOXTEST/tptoolxlance/refs/heads/main/TPTOOLXLCLC'))()
+    end
+  })
+
+  local section = AddSection(Main, {""})
+AddButton(Main, {
+    Name = "Fpsunlocker",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/XAXAEXOXTEST/FPSUNLOCKER/refs/heads/main/FPSUNLOCKERMASTERSOURCE'))()
+    end
+  })
